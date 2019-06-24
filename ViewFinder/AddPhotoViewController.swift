@@ -33,6 +33,17 @@ class AddPhotoViewController: UIViewController, UIImagePickerControllerDelegate,
         present(imagePicker, animated: true, completion: nil)
     }
     
+    @IBAction func savePhotoTapped(_ sender: UIButton) {
+        if let context = (UIApplication.shared.delegate as? AppDelegate)?.persistentContainer.viewContext
+        {
+            
+            let photoToSave = Entity(entity: Entity.entity(), insertInto: context)
+    }
+    
+    }
+    @IBOutlet weak var captionText: UITextField!
+    
+    
     
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
         
