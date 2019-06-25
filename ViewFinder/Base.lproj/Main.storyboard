@@ -53,8 +53,9 @@
         <!--Add New Photo-->
         <scene sceneID="wcg-ph-FIt">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CBB-g9-5Ug" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="Tx8-Sd-REQ" customClass="AddPhotoViewController" customModule="ViewFinder" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Dv4-Vt-2eX">
+                    <view key="view" contentMode="scaleToFill" id="Dv4-Vt-2eX" customClass="UITableView">
                         <rect key="frame" x="0.0" y="0.0" width="834" height="1112"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -103,7 +104,6 @@
                         <outlet property="imageView" destination="XxV-nO-CJH" id="Lit-c9-vXV"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="CBB-g9-5Ug" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1426.6187050359713" y="-38.309352517985616"/>
         </scene>
@@ -124,12 +124,12 @@
                         <viewLayoutGuide key="safeArea" id="JXP-VT-d7E"/>
                     </view>
                     <connections>
-                        <outlet property="photoDetailView" destination="H7L-TM-Gaf" id="Q60-mA-WOr"/>
+                        <outlet property="photoDetailView" destination="H7L-TM-Gaf" id="v69-H3-7fe"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6sG-31-IR2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2075.5395683453239" y="-35.071942446043167"/>
+            <point key="canvasLocation" x="786" y="772"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="jcU-v0-HHN">
