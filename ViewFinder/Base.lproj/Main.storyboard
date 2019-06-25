@@ -83,7 +83,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Save"/>
                                 <connections>
-                                    <action selector="saveButtonAction:" destination="Tx8-Sd-REQ" eventType="touchUpInside" id="Agc-Du-GCH"/>
+                                    <action selector="savePhotoTapped:" destination="Tx8-Sd-REQ" eventType="touchUpInside" id="uWs-4D-Hy8"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XxV-nO-CJH">
@@ -96,7 +96,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Add New Photo" id="aRF-z9-1h3"/>
                     <connections>
-                        <outlet property="captionText" destination="gGh-TL-ZQX" id="9eX-3g-6Tu"/>
+                        <outlet property="captionText" destination="gGh-TL-ZQX" id="Imo-Gf-wNo"/>
                         <outlet property="imageView" destination="XxV-nO-CJH" id="Lit-c9-vXV"/>
                     </connections>
                 </viewController>
